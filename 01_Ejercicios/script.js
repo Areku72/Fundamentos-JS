@@ -52,4 +52,5 @@ alert ("mi edades: " + resultado);
         let ultimoValor = valor[valor.length -1];
         let penultimoValor = valor[valor.length -2];
         let primerValor = valor[0]
-        suma = ultimoValor + kllñp{}
+        suma = ultimoValor + kllñp}
+    
