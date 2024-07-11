@@ -1,0 +1,51 @@
+html 
+Copiar código
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Interactiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>    
+<body>
+    <h1>Galería Interactiva de Imágenes</h1>
+    <div class="image-container">
+        <img src="https://via.placeholder.com/200" alt="Imagen 1"
+        onclick="changeImage(this)">
+        <button onclick="showDescription(this)"></button>
+        <p class="description">Descripcion de la imagen 1</p> 
+    </div>
+    <div class="image-container">
+        <img src="https://via.placerholder.com/200" alt="Imagen 2"
+        onclick="changeImage(this)">
+        <button onclick ="showDescription(this)">Descripcion</button>
+    <p class="description">Descripcion de la imagen 2</p>
+    </div>
+
+    <h2>Lista Tareas</h2>
+    <ul id="taskList">
+        <li class="task">
+            <span>Tarea 1</span>
+            <button onclick="completeTask(this)">Completar</button>
+        </li>
+    </ul>
+
+    <h2>Productos</h2>
+    <div class="product-card">
+        <h2>Producto 1</h2>
+        <p class="price">$100.00</p>
+        <button onclick="applyDiscount(this)">Aplicar descuentos</button>
+    </div>
+    <div class="product-card">
+        <h2>Productos 2</h2>
+        <p class="price">100.00</p>
+        <button onclick="applyDiscount(this)">Aplicar descuentos</button>
+    </div>
+    <div class="product-card">
+        <h2>Producto 2</h2>
+        <p class="price">150.00</p>
+        <button onclick="applyDiscount(this)">Aplicar descueto</button>
+    </div>
+</body>
+</html>
