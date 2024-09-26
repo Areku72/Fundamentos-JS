@@ -1,9 +1,17 @@
 console.log("page loaded...");
-  
-function playVideo(video){
-    video.play();
-}
-function pauseVideo(video){
-    video.pause();
-}
-    // video.currentTime = 0;   Vuelve video al inicio    
+
+function playVideo(secundaryVideo){
+    var mainVideo = document.getElementById("mainVideo");
+    var temp = mainVideo.src;
+    mainVideo.src = secundaryVideo.src;
+    mainVideo.play();
+    secundaryVideo.src = temp;
+};
+
+function pauseVideo(){
+    var mainVideo = document.getElementById("mainVideo");
+    var tempSrc = secundaryVideo.src;
+    secundaryVideo.src = mainVideo.src;
+    mainVideo.src = tempSrc;
+    mainVideo.play();
+};
