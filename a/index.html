@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dojonary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"&gt;>
+<link rel="preconnect" href="https://fonts.gstatic.com&quot"; crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap&quot;">
+<link rel="stylesheet" href="style.css">
+</head><body>
+    <!-- Contenedor principal de la página -->
+    <div class="container">
+       
+        <!-- Sección superior, incluye el título, barra de búsqueda y botón de login -->
+        <div class="top">
+            <h1 class="title">Dojonary</h1>  <!-- Título principal de la página -->
+            <input type="text" name="search" placeholder="Search" class="search"> <!-- Barra de búsqueda -->
+            <button class="btn_login" onclick="">Login</button> <!-- Botón de inicio de sesión -->
+        </div>
+       
+        <!-- Contenedor principal con dos columnas (row) -->
+        <div class="row">
+           
+            <!-- Primera columna que ocupa dos tercios del ancho -->
+            <div class="flex-2">
+               
+                <!-- Primera definición -->
+                <div class="box_definition">
+                    <div class="left">
+                        <h1>ninja</h1> <!-- Palabra definida -->
+                        <p><em>noun</em></p> <!-- Tipo de palabra (sustantivo) -->
+                        <p>Plural: <em>ninjas</em></p> <!-- Forma plural -->
+                        <button class="btn_like" onclick="mensage(this)">13 likes</button> <!-- Botón para "me gusta" -->
+                    </div>
+                    <p class="definition-text">A practitioner skilled in the <a href="https://en.wikipedia.org/wiki/Japanese">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></p> <!-- Definición -->
+                </div>
+
+                <!-- Segunda definición -->
+                <div class="box_definition">
+                    <div class="left">
+                        <h1>ninja</h1> <!-- Palabra repetida -->
+                        <p><em>noun</em></p> <!-- Tipo de palabra (sustantivo) -->
+                        <p>Plural: <em>ninjas</em></p> <!-- Forma plural -->
+                        <button class="btn_like" onclick="mensage(this)">37 likes</button> <!-- Botón para "me gusta" -->
+                    </div>
+                    <p class="definition-text">A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus</p> <!-- Definición alternativa -->
+                </div>
+            </div>
+
+            <!-- Segunda columna que ocupa un tercio del ancho -->
+            <div class="flex-1">
+                <div class="box">
+                    <h2>Dojonary is defined by YOU</h2> <!-- Texto promocional -->
+                    <button class="btn_add" onclick="addDefinition(this)">Add Definition</button> <!-- Botón para añadir una nueva definición -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inclusión del archivo de JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>

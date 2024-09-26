@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa; /* Color de fondo suave */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: #ff5722; /* Color vibrante para el título */
+    font-size: 36px;
+}
+
+.search {
+    padding: 10px;
+    border: 2px solid #ff5722; /* Borde del campo de búsqueda */
+    border-radius: 5px;
+    width: 60%;
+}
+
+.btn_login {
+    background-color: #2196f3; /* Azul para el botón de login */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_login:hover {
+    background-color: #1976d2; /* Azul más oscuro al pasar el mouse */
+}
+
+.row {
+    display: flex;
+}
+
+.flex-2 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.box_definition {
+    background-color: #ffe0b2; /* Color de fondo para las definiciones */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_definition h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #d32f2f; /* Color vibrante para el título de la definición */
+}
+
+.definition-text {
+    color: #616161; /* Color gris para el texto de la definición */
+}
+
+.btn_like {
+    background-color: #4caf50; /* Verde para el botón de "me gusta" */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_like:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el mouse */
+}
+
+.box {
+    background-color: #bbdefb; /* Color de fondo para el cuadro de la columna derecha */
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.btn_add {
+    background-color: #ff9800; /* Naranja para el botón de añadir definición */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_add:hover {
+    background-color: #fb8c00; /* Naranja más oscuro al pasar el mouse */
+}
